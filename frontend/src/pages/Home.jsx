@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 import {FaQuestionCircle, FaTicketAlt} from 'react-icons/fa'
 
+
 function Home() {
-  return (
+  
+return (
     <>
       <section className="heading">
         <h1>What you need help with?</h1>

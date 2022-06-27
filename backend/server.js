@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 
 // Routes
 app.use('/api/users', require('./routes/userRoute'))
+app.use('/api/tikets', require('./routes/tiketRoute'))
 app.use(errorHanller)
 
 app.listen(PORT, 

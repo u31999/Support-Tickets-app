@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux"
 import { getSingleTicket, closeTicket } from '../features/tickets/ticketsSlice'
-import {getNotes, reset as resetNotes, createNote} from '../features/notes/notesSlice'
+import {getNotes, createNote} from '../features/notes/notesSlice'
 import BackBtn from "../component/BackBtn"
 import Spinner from "../component/Spinner"
 import { useParams, useNavigate } from "react-router-dom"
@@ -28,7 +28,7 @@ Modal.setAppElement('#root')
 function Ticket() {
     const [modelIsOpen, setModelIsOpen] = useState(false)
     const [noteText, setNoteText] = useState('')
-    const {ticket, isLoading, isSuccess, 
+    const {ticket, isLoading, 
         isError, message} = useSelector((state) => state.tickets)
     
         const {notes, 

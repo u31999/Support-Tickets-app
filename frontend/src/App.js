@@ -9,6 +9,7 @@ import NewTicket from './pages/NewTicket';
 import PrivateRoute from './component/PrivateRoute';
 import Tickets from './pages/Tickets';
 import Ticket from './pages/Ticket';
+import FooterIcons from './component/GithubIcon';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           </Routes>
         </div>
         <ToastContainer />
+        <FooterIcons />
       </Router>
     </>
   );

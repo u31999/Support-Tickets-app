@@ -3,8 +3,12 @@ const router = express.Router()
 
 const {protect} = require('../middleware/authMidleware')
 
+const noteRouter = require('./noteRoute')
+router.use('/:ticketId/notes', noteRouter)
+
 const {getTickets, createTicket, getTicket, 
     deleteTicket, updateTicket} = require('../controllers/tiketController')
+
 
 router.route('/')
 .get(protect, getTickets)

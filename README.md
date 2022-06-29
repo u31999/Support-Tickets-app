@@ -6,6 +6,8 @@
 - Log-in to send a ticket, and add notes, or close an open ticket.
 - Protected tickets route "You have to be logged in to see and modify your tickets"
 
+# [LIVE VIEW](https://support-tickets-mern-app.herokuapp.com/)
+
 # Buid using:
 
 #### Front-End:
@@ -16,8 +18,6 @@
 - [React-icons](https://github.com/react-icons/react-icons#readme)
 - [React-toastify](https://github.com/fkhadra/react-toastify#readme)
 - [Axios](https://www.npmjs.com/package/axios)
-
-# [LIVE VIEW](https://support-tickets-mern-app.herokuapp.com/)
 
 #### Back-End:
 

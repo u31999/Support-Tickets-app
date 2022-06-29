@@ -17,6 +17,8 @@
 - [React-toastify](https://github.com/fkhadra/react-toastify#readme)
 - [Axios](https://www.npmjs.com/package/axios)
 
+# [LIVE VIEW](https://support-tickets-mern-app.herokuapp.com/)
+
 #### Back-End:
 
 - Express
